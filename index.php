@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <link   href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
+    
+    
 </head>
 
 <body>
     <div class="container">
     		<div class="row">
-    			<h3>PHP CRUD Grid</h3>
+                 
+    			<h3>PHP CRUD Grid - https://github.com/brandonwillson/Prog1.1</h3>
     		</div>
 			<div class="row">
 				<p>
@@ -27,7 +30,7 @@
 		              </thead>
 		              <tbody>
 		              <?php 
-					   require 'database.php';
+					   require_once 'database.php';
 					   $pdo = Database::connect();
 					   $sql = 'SELECT * FROM customers ORDER BY id DESC';
 	 				   foreach ($pdo->query($sql) as $row) {
