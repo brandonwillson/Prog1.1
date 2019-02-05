@@ -3,20 +3,20 @@ class Database
 {
 	// these are not the real passwords
 	// for real passwords, see file in ../database subdirectory
-	/*private static $dbName = 'Work' ; 
+	private static $dbName = 'Work' ; 
 	private static $dbHost = 'localhost' ;
 	private static $dbUsername = 'root';
-	private static $dbUserPassword = '';*/
+	private static $dbUserPassword = '';
         
        /* private static $dbName = 'id8639832_program1' ; 
 	private static $dbHost = 'localhost' ;
 	private static $dbUsername = 'id8639832_cis355';
 	private static $dbUserPassword = 'Willy92';*/
     
-        private static $dbName = 'bawillso355wi19' ; 
+      /*  private static $dbName = 'bawillso355wi19' ; 
 	private static $dbHost = '10.8.30.49' ;
 	private static $dbUsername = 'bawillso355wi19';
-	private static $dbUserPassword = 'bawillsodbwi19b';
+	private static $dbUserPassword = 'bawillsodbwi19b';*/
 	
 	private static $cont  = null;
 	

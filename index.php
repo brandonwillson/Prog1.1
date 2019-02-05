@@ -12,8 +12,13 @@
     <div class="container">
     		<div class="row">
                  
-    			<h3>PHP CRUD Grid - https://github.com/brandonwillson/Prog1.1</h3>
+    			<h3>PHP CRUD Grid</h3>
+                        <a href="https://github.com/brandonwillson/Prog1.1">Git Code</a>
     		</div>
+        <div
+           
+            </div>
+        
 			<div class="row">
 				<p>
 					<a href="create.php" class="btn btn-success">Create</a>
